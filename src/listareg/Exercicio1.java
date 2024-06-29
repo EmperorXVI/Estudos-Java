@@ -15,7 +15,6 @@ public class Exercicio1 {
 
         float resultado = (num1 * a1) + (num2 * a2);
 
-
         System.out.println("O resultado da equação é: " + resultado);
 
     }
