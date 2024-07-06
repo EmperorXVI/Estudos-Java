@@ -1,6 +1,4 @@
-package exercicios2;
-
-import org.w3c.dom.ls.LSOutput;
+package exerciciosIfElseSwitchCase;
 
 import java.util.Scanner;
 

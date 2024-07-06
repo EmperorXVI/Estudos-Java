@@ -1,6 +1,5 @@
-package exercicios2;
+package exerciciosIfElseSwitchCase;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Exercicio5 {

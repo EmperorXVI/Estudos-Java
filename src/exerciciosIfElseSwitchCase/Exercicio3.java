@@ -1,4 +1,4 @@
-package exercicios2;
+package exerciciosIfElseSwitchCase;
 
 import java.util.Scanner;
 
