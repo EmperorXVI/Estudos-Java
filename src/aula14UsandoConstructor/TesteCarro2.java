@@ -1,8 +1,4 @@
-package aula14;
-
-import aula13.Carro;
-
-import java.sql.SQLOutput;
+package aula14UsandoConstructor;
 
 public class TesteCarro2 {
     public static void main(String[] args) {
