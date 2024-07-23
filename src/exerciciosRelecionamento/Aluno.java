@@ -31,8 +31,8 @@ public class Aluno {
     }
 
     public String obterInfo(){
-        String info = "Nome do aluno = " + nome + "; ";
-                info += "Matricula = " + matricula + "; ";
+        String info = "Nome do aluno = " + nome + "| ";
+                info += "Matricula = " + matricula + "| ";
                 info += "Notas: ";
 
                 double soma = 0;
