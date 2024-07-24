@@ -5,6 +5,10 @@ class Aluno extends Pessoa{
     private String curso;
     private double[] notas;
 
+    public void verificarAcesso(){
+        super.numeroTelefone = "9876475";
+    }
+
     public Aluno(){
         super(); //chamando o construtor da superclasse
     }

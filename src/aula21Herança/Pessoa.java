@@ -7,6 +7,8 @@ class Pessoa {
     private String telefone;
     private String cpf;
 
+    protected String numeroTelefone; //A DIFERÊNÇA DO PROTECTED PRO DEFAULT É QUE A SUB-CLASSE TAMBEM TEM ACESSO AO ATRIBUTO
+
     public Pessoa(){
     }
 
