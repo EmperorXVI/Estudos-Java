@@ -1,0 +1,55 @@
+package aula22UsandoAbstract;
+
+class Pessoa {
+    //CASO EU DECLARE A CLASSE DO SEGUINTE MODO => public class abstract Pessoa <= eu não consigo instânciar a classe
+
+    private String nome;
+    private String endereco;
+    private String telefone;
+    private String cpf;
+
+    protected String numeroTelefone; //A DIFERÊNÇA DO PROTECTED PRO DEFAULT É QUE A SUB-CLASSE TAMBEM TEM ACESSO AO ATRIBUTO
+
+    public Pessoa(){
+    }
+
+    public Pessoa(String nome, String endereco, String telefone, String cpf) {
+        super();
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+        this.cpf = cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+}
